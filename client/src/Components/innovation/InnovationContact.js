@@ -29,7 +29,7 @@ function InnovationContact( {sectionRef}) {
                 </div>
             </div>
             <div className="text-[#9BA9B34D] text-center m-20">
-                <p>Designed by Arya Vijayan. Developed by .</p>
+                <p>Designed by Arya Vijayan. Developed by IEDC CET.</p>
                 <p>All Rights Reserved</p>
             </div>
         </div>

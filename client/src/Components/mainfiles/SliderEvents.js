@@ -81,7 +81,7 @@ function Slider({data}) {
                   {event.eventName}
                 </h5>
               </a>
-              <p className="mb-3 font-normal text-gray-700 text-gray-400">
+              <p className="mb-3 font-normal text-gray-400">
                 {event.date}
               </p>
               <div className="items-center flex flex-col space-y-2 text-gray-700 dark:text-gray-400">
