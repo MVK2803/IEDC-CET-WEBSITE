@@ -64,11 +64,13 @@ function Innovation() {
         src={Background}
         className="absolute -top-[940px] z-0 opacity-30"
         alt="background"
+        width="100%"
       />
       <img
         src={Background2}
-        className="absolute bottom-56 z-10"
+        className="absolute bottom-56"
         alt="background"
+        width="100%"
       />
       <div className="z-20 min-h-screen w-full flex flex-col">
         <Navbar navbarItems={navbarItems} />

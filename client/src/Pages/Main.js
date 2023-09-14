@@ -39,7 +39,7 @@ function Main() {
   const announcementsSectionRef = useRef(null);
   const achievementsSectionRef = useRef(null);
   const inoSectionRef = useRef(null);
-  const testimonialsSectionRef = useRef(null);
+  const teamSectionRef = useRef(null);
   const contactSectionRef = useRef(null);
   // const innnovateXSectionRef = useRef(null); // Is this supposed to be "inoSectionRef"?
 
@@ -98,7 +98,7 @@ function Main() {
       text: "IOW",
       href: "/innovation",
     },
-    { text: "TEAM", href: "#Testimonials", sectionRef: testimonialsSectionRef },
+    { text: "TEAM", href: "#Team", sectionRef: teamSectionRef },
     { text: "CONTACT", href: "#Contacts", sectionRef: contactSectionRef },
     { text: "CAP", href: "/cap", sectionRef: contactSectionRef },
   ];
@@ -120,7 +120,7 @@ function Main() {
       text: "IOW",
       href: "/innovation",
     },
-    { text: "TEAM", href: "#Testimonials", sectionRef: testimonialsSectionRef },
+    { text: "TEAM", href: "#Team", sectionRef: teamSectionRef },
     { text: "CONTACT", href: "#Contacts", sectionRef: contactSectionRef },
     { text: "CAP", href: "/cap", sectionRef: contactSectionRef },
     {
@@ -185,7 +185,7 @@ function Main() {
       <Achievements sectionRef={achievementsSectionRef} />
       <Testim />
       <Faculty />
-      <Team />
+      <Team sectionRef={teamSectionRef} />
    
       <FAQSection faqData={faqData} />
       <ContactPanel sectionRef={contactSectionRef} />

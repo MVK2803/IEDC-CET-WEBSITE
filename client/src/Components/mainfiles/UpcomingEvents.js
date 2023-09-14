@@ -8,7 +8,7 @@ export default function UpcomingEvents({ sectionRef }) {
   const upcomingEvents = [
     {
       eventName: "Build Club",
-      date: "2023-07-15",
+      date: "15-07-2023",
       image: BuildClub,
       registrationLink: "https://example.com/event1/registration",
       brochureLink: "https://example.com/event1/brochure",
@@ -18,7 +18,7 @@ export default function UpcomingEvents({ sectionRef }) {
 
     {
       eventName: "YIP Ideafest",
-      date: "07/06/2023",
+      date: "07-06-2023",
       image: YipIdeaFest,
       registrationLink: "https://example.com/event4/registration",
       brochureLink: "https://example.com/event4/brochure",
