@@ -22,7 +22,8 @@ import CC from "../../Assets/Images/Teams/CC.jpg"
 import WEL from "../../Assets/Images/Teams/WEL.JPG"
 import NKL from "../../Assets/Images/Teams/NKL.jpg"
 import WM from "../../Assets/Images/Teams/WM.jpg"
-export default function Team() {
+
+export default function Team( {sectionRef} ) {
     const team = [{
         image: CEO,
         name: "Rizvan M S",
@@ -173,7 +174,7 @@ export default function Team() {
 ]
 
     return ( 
-        <div className = " w-3/4 text-center border-t-[1px] border-t-gray-800 pt-12 space-y-5 self-center mt-4 mb-2 " >
+        <div ref={sectionRef} className = " w-3/4 text-center border-t-[1px] border-t-gray-800 pt-12 space-y-5 self-center mt-4 mb-2 " >
         <h className = "mb-12 block text-4xl font-bold text-white" > Team </h>
         <Slider data = { team }/>
         </div >
