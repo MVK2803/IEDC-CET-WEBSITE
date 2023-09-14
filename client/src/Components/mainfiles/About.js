@@ -31,7 +31,7 @@ function About({ sectionRef }) {
       <div className="md:flex-row flex-col flex justify-center items-center gap-20">
         <div className="md:w-1/2 mb-10 w-full md:flex-col ju6stify-center items-center md:text-start">
           <h1 className="text-2xl">{aboutDatas[0].title}</h1>
-          <p className="text-gray-500 text-xl font-normal">
+          <p className="text-gray-400 text-xl font-normal">
             {aboutDatas[0].content}
           </p>
         </div>
@@ -46,7 +46,7 @@ function About({ sectionRef }) {
       <div className="md:flex-row-reverse flex-col flex justify-center items-center gap-20">
         <div className="md:w-1/2 w-full md:flex-col justify-center items-center md:text-start">
           <h1 className="text-2xl">{aboutDatas[1].title}</h1>
-          <p className="text-gray-500 text-xl font-normal">
+          <p className="text-gray-400 text-xl font-normal">
             {aboutDatas[1].content}
           </p>
         </div>
@@ -61,7 +61,7 @@ function About({ sectionRef }) {
       <div className="md:flex-row flex-col flex justify-center items-center gap-20">
         <div className="md:w-1/2 w-full md:flex-col justify-center items-center md:text-start">
           <h1 className="text-2xl">{aboutDatas[2].title}</h1>
-          <p className="text-gray-500 text-xl font-normal">
+          <p className="text-gray-400 text-xl font-normal">
             {aboutDatas[2].content}
           </p>
         </div>

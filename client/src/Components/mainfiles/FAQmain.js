@@ -14,7 +14,7 @@ const FAQSection = ({faqData}, {sectionRef}) => {
   };
 
   return (
-    <div  ref={sectionRef} className="mb-4 mt-20 border-t-[1px] border-t-gray-800 pt-12 space-y-3 text-white md:w-2/3 w-3/4 self-center">
+    <div  ref={sectionRef} className="mb-4 border-t-[1px] border-t-gray-800 pt-12 space-y-3 text-white md:w-2/3 w-3/4 self-center">
         <h2 className="text-center block mb-12 text-4xl font-bold">FAQs</h2>
           {faqData.map((faq, index) => (
             <div key={index} className="p-2 bg-[#334155] text-white rounded-md shadow-md ">

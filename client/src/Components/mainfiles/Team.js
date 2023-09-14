@@ -173,7 +173,7 @@ export default function Team() {
 ]
 
     return ( 
-        <div className = " w-3/4 text-center  space-y-5 self-center mt-4 mb-2 " >
+        <div className = " w-3/4 text-center border-t-[1px] border-t-gray-800 pt-12 space-y-5 self-center mt-4 mb-2 " >
         <h className = "mb-12 block text-4xl font-bold text-white" > Team </h>
         <Slider data = { team }/>
         </div >
